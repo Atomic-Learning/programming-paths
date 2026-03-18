@@ -1,1 +1,35 @@
+<p>In programming, a path is a text-based description of a location in a file system. It is comprised of a sequence of directory names and, possibly, a filename at the end of the path. These components are separated by a forward slash <code>/</code> on Unix-like systems (Linux, macOS) or a backslash <code>\</code> on Windows systems.</p>
+
+<h2>Special Path References</h2>
+
+<p>In addition to regular directory and file names, paths can include special references:</p>
+<ul>
+    <li><code>.</code> refers to the current working directory.</li>
+    <li><code>..</code> refers to the parent directory.</li>
+</ul>
+
+<h2>Example Structure</h2>
+
+<p>In this page we will use the following example structure:</p>
+
+<code><pre>home
+├── user
+    ├── documents
+    │   └── file.txt
+    └── downloads
+        └── image.jpg</pre></code>
+
+<p>where <code>home</code> is found in the root directory of the file system, <code>user</code> is a subdirectory of <code>home</code>, and so on.</p>
+
+<h2>Absolute and Relative Paths</h2>
+
+<p>An absolute path specifies the complete location of a file or directory from the root of the file system. For example, <code>/home/user/documents/file.txt</code> is an absolute path on Unix-like systems. This typically starts with a slash to denote the root directory.</p>
+
+<p>A relative path specifies the location of a file or directory relative to the current working directory. For example, :</p>
+
+<ul>
+    <li>If <code>/home/user</code> is the current working directory, <code>./documents/file.txt</code> (or <code>documents/file.txt</code> as a shorthand) refers to <code>/home/user/documents/file.txt</code>.</li>
+    <li>If <code>/home/user/documents</code> is the current working directory, <code>../downloads/image.jpg</code> refers to <code>/home/user/downloads/image.jpg</code>.</li>
+</ul>
+
 

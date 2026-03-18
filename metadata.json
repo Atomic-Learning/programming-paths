@@ -1,22 +1,18 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Programming: Paths",
+    "slug": "programming-path",
+    "description": "Introduces the concept of a path in the context of directory structures. Includes discussion of differing slash notations across operation systems.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "programming",
+        "software-engineering"
     ],
-    "duration": 0,
+    "duration": 4,
     "prerequisites": [
-        "",
-        ""
+        "programming-current-working-directory"
     ],
     "related": [
-        "",
-        ""
     ]
 }
